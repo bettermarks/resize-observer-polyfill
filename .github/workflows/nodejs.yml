@@ -22,6 +22,6 @@ jobs:
         npm ci
         npm build        
         npm run test:lint
-        npm run test:node
+        npm run test:spec:node
       env:
         CI: true
